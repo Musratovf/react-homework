@@ -271,4 +271,17 @@ img {
 	.btn {
 		padding: 0;
 	}
+	.cards__link {
+		margin: 15px 15px;
+	}
+}
+@media only screen and (max-width: 630px) {
+	.position__wrap {
+		width: 100%;
+		width: 300px;
+	}
+	.position__wrap h2, h4{
+		font-size: 16px;
+		width: 200px;
+	}
 }
