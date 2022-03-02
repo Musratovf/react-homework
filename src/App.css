@@ -46,6 +46,7 @@ img {
     background-color: #0D0D33;
 }
 .container {
+	position: relative;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -62,6 +63,7 @@ img {
 	display: flex;
 	align-items: center;
 	background-image: url('./Assets/Images/bg-hero.png');
+	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
@@ -118,4 +120,27 @@ img {
 .hero-inside-left button:hover {
 	transition: 0.3s ease;
 	background-color: #2b14b1;
+}
+.wrap__texts {
+	width: 400px;
+}
+.position__wrap {
+	max-width: 1300px;
+	display: flex;
+	margin: 0 auto;
+	transform: translateY(-100px) ;
+	border: 1px solid #737373;
+	padding: 50px;
+	background-color: #ffffff;
+	box-shadow: 0 0 5px  rgba(0, 0, 0, 0.5);
+}
+.line {
+	margin: 0;
+	background-color: #737373;
+}
+.wrap__list {
+	list-style: none;
+}
+.position__container {
+	position: relative;
 }
