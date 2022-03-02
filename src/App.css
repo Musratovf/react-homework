@@ -33,8 +33,6 @@ body {
 
 #root {
 	height: 100%;
-	display: flex;
-	flex-direction: column;
 }
 
 img {
@@ -50,12 +48,13 @@ img {
 	position: relative;
     max-width: 1200px;
     margin: 0 auto;
+	padding: 10px;
 }
 .text {
     margin: 0;
 }
 .header {
-	margin-top: 50px;
+	padding-top: 50px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -126,7 +125,7 @@ img {
 	width: 400px;
 }
 .position__wrap {
-	max-width: 1300px;
+	max-width: 1200px;
 	display: flex;
 	margin: 0 auto;
 	transform: translateY(-70px) ;
@@ -164,10 +163,14 @@ img {
 	text-decoration: none; 	
 	color: #000000;
 }
-.card {
-	display: flex;
+.wrap-cards {
+	max-width: 1300px;
+}
+.cart {
+	max-width: 1300px;
+	display: flex !important;
+	flex-wrap: wrap !important;
 	justify-content: space-between;
-	flex-wrap: wrap;
 }
 .card__item {
 	list-style: none;
@@ -177,7 +180,7 @@ img {
 }
 .card__list {
 	border: 1px solid #E8E8E8;
-	padding: 30px 80px 60px 60px;
+	padding: 30px 10px 40px 30px;
 	max-width: 560px;
 	background-color: #ffffff;
 	border-radius: 3px;
@@ -201,4 +204,71 @@ img {
 .card button:hover {
 	background-color: rgb(28, 28, 233);
 	transition: 0.4s ease;
+}
+.dropdown {
+	display: none;
+}
+
+.btnget {
+	background-color: #0A8BFE;
+	color: #fff;
+	padding: 10px 25px;
+	border: 1px solid #9b9999;
+	border-radius: 3px;
+	margin: 0 auto;
+}
+
+.btnget {
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
+
+@media only screen and (max-width: 1220px) {
+	.position__wrap {
+	    max-width: 1000px;
+	}
+	.cart {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	.card__list {
+		padding: 20px;
+	}
+}
+
+@media only screen and (max-width: 1020px) {
+	.position__wrap {
+	    max-width: 800px;
+		padding: 30px;
+	}
+}
+@media only screen and (max-width: 1145px) {
+	.cart {
+		display: flex;
+		justify-content: center;
+	}
+}
+@media only screen and (max-width: 830px) {
+	.position__wrap {
+		display: flex;
+		flex-direction: column;
+		max-width: 600px;
+	}
+	.wrap__list {
+		padding: 0;
+	}
+	.list {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 820px) {
+	.dropdown {
+		display: block;
+	}
+	.btn {
+		padding: 0;
+	}
 }

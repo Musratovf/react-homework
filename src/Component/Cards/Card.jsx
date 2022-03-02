@@ -17,7 +17,7 @@ function Cards() {
                     </li>
                 </ul>
                 <div className="wrap-cards">
-                    <div className="card">
+                    <div className="cart">
                         <ul className="card__list">
                             <li className="card__item">
                                 <p className="card__heading">1. Research</p>
@@ -50,8 +50,8 @@ function Cards() {
                                 </p>
                                 </li>
                         </ul>
-                        <button className="">Contact Us</button>
                     </div>
+                        <button className="btnget">Contact Us</button>
                 </div>
             </div>
             </div>

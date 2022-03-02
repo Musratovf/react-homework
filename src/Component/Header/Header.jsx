@@ -1,5 +1,6 @@
 import React from "react";
 import LogoImg from "../../Assets/Images/logo.svg"
+import MenuImg from "../../Assets/Images/menu.png"
 
 function Header() {
     return (
@@ -27,6 +28,18 @@ function Header() {
                         <button>Get project quote</button>
                     </li>
                 </ul>
+                <div class="dropdown">
+                     <button class="btn btn-secondary " type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src={MenuImg} alt="menu" width={50} />
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">Home</a></li>
+                        <li><a class="dropdown-item" href="#">Portfolio</a></li>
+                        <li><a class="dropdown-item" href="#">Process</a></li>
+                        <li><a class="dropdown-item" href="#">Team</a></li>
+                        <li><a class="dropdown-item" href="#">Resources</a></li>
+                    </ul>
+                </div>
             </header>
         </>
     )
