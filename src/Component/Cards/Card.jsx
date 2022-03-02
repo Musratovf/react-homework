@@ -20,7 +20,23 @@ function Cards() {
                     <div className="card">
                         <ul className="card__list">
                             <li className="card__item">
-                                <p>Research</p>
+                                <p className="card__heading">1. Research</p>
+                                <p className="card__last">
+                                We can help you to better understand your target audience, enabling you to create a more powerful value proposition for your business.
+                                </p>
+                                </li>
+                        </ul>
+                        <ul className="card__list">
+                            <li className="card__item">
+                                <p className="card__heading">2. Requirements</p>
+                                <p className="card__last">
+                                We can help you to better understand your target audience, enabling you to create a more powerful value proposition for your business.
+                                </p>
+                                </li>
+                        </ul>
+                        <ul className="card__list">
+                            <li className="card__item">
+                                <p>3. UI Design</p>
                                 <p>
                                 We can help you to better understand your target audience, enabling you to create a more powerful value proposition for your business.
                                 </p>
@@ -28,28 +44,13 @@ function Cards() {
                         </ul>
                         <ul className="card__list">
                             <li className="card__item">
-                                <p>Research</p>
+                                <p>4. Prototyping</p>
                                 <p>
                                 We can help you to better understand your target audience, enabling you to create a more powerful value proposition for your business.
                                 </p>
                                 </li>
                         </ul>
-                        <ul className="card__list">
-                            <li className="card__item">
-                                <p>Research</p>
-                                <p>
-                                We can help you to better understand your target audience, enabling you to create a more powerful value proposition for your business.
-                                </p>
-                                </li>
-                        </ul>
-                        <ul className="card__list">
-                            <li className="card__item">
-                                <p>Research</p>
-                                <p>
-                                We can help you to better understand your target audience, enabling you to create a more powerful value proposition for your business.
-                                </p>
-                                </li>
-                        </ul>
+                        <button className="">Contact Us</button>
                     </div>
                 </div>
             </div>

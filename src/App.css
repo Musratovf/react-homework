@@ -28,6 +28,7 @@ body {
 	line-height: 1.5;
 	margin: 0;
 	padding: 0;
+	background-color: #ececf1;
 }
 
 #root {
@@ -63,7 +64,7 @@ img {
 	display: flex;
 	align-items: center;
 	background-image: url('./Assets/Images/bg-hero.png');
-	background-attachment: fixed;
+	/* background-attachment: fixed; */
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
@@ -128,7 +129,7 @@ img {
 	max-width: 1300px;
 	display: flex;
 	margin: 0 auto;
-	transform: translateY(-100px) ;
+	transform: translateY(-70px) ;
 	border: 1px solid #737373;
 	padding: 50px;
 	background-color: #ffffff;
@@ -141,9 +142,7 @@ img {
 .wrap__list {
 	list-style: none;
 }
-.position__container {
-	position: relative;
-}
+
 .main__text {
 	text-align: center;
 	font-size: 40px;
@@ -154,6 +153,7 @@ img {
 	color: #737373;
 }
 .cards__list {
+	margin: 70px 50px;
 	display: flex;
 	justify-content: center;
 	list-style: none;
@@ -170,12 +170,35 @@ img {
 	flex-wrap: wrap;
 }
 .card__item {
-	list-style: decimal;
+	list-style: none;
 }
-.card__item p {
+.card__heading {
 	font-size: 20px;
 }
 .card__list {
-	border: 1px solid #737373;
+	border: 1px solid #E8E8E8;
+	padding: 30px 80px 60px 60px;
 	max-width: 560px;
+	background-color: #ffffff;
+	border-radius: 3px;
+}
+.card__list:hover {
+	border: 1px solid #9b9999;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+.card__last {
+	font-size: 16px;
+}
+.card button {
+	background-color: #0A8BFE;
+	border: none;
+	padding: 15px 30px;
+	color: #fff;
+	cursor: pointer;
+	margin: 40px auto;
+	border-radius: 4px;
+}
+.card button:hover {
+	background-color: rgb(28, 28, 233);
+	transition: 0.4s ease;
 }
