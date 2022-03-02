@@ -144,3 +144,38 @@ img {
 .position__container {
 	position: relative;
 }
+.main__text {
+	text-align: center;
+	font-size: 40px;
+	font-weight: 500;
+}
+.main__title {
+	text-align: center;
+	color: #737373;
+}
+.cards__list {
+	display: flex;
+	justify-content: center;
+	list-style: none;
+}
+.cards__link {
+	margin: 70px  70px ;
+	font-size: 24px;
+	text-decoration: none; 	
+	color: #000000;
+}
+.card {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.card__item {
+	list-style: decimal;
+}
+.card__item p {
+	font-size: 20px;
+}
+.card__list {
+	border: 1px solid #737373;
+	max-width: 560px;
+}

@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../Header/Header";
 import Hero from "../Hero/Hero";
+import Cards from "../Cards/Card";
 
 function Section() {
     return (
